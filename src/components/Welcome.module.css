@@ -1,0 +1,56 @@
+.container {
+  margin: auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc; /* Add border */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.header {
+  width: 100%; /* Take full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+  padding-bottom: 10px; /* Add padding bottom for spacing */
+  border-bottom: 1px solid #ccc; /* Add border bottom for separation */
+  border: 2px solid #e80c0c;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+
+}
+
+.completeLink {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.expenseLink {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #67007a;
+  text-decoration: none;
+  border: 2px solid #cd1212;
+  border-radius: 5px;
+}
+
+.expenseLink:hover {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+
+.messageContainer {
+  margin-bottom: 20px; /* Add spacing between messages and Expense link */
+}
+
+.expenseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

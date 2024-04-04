@@ -1,0 +1,62 @@
+/* Expense.module.css */
+
+.expenseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expenseForm {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #cb2727;
+  border-radius: 5px;
+}
+
+.formGroup {
+  margin-bottom: 10px;
+}
+
+.formGroup label {
+  margin-right: 10px;
+}
+
+.expenseList {
+  width: 50%;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.expenseList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.expenseList li {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.expenseList li {
+  display: flex;
+  justify-content: space-between; /* Align items to right */
+  margin-bottom: 10px; /* Add margin bottom */
+  padding: 10px; /* Add padding */
+}
+
+.expenseList button {
+  margin-left: 10px; /* Add margin between buttons */
+}

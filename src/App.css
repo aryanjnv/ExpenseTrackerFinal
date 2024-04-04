@@ -1,0 +1,18 @@
+.dark-mode {
+  background-color: #333; /* Dark background color */
+  color: #dd1313;
+}
+.theme-toggle {
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #fff; /* Light background color */
+  color: #333; /* Dark text color */
+  border: 2px solid #333; /* Dark border */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+  background-color: #fff;; 
+  color: #333;
+ } 
